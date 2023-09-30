@@ -5,7 +5,6 @@ const layouts = [Header]
 export default (app:any)=> {
     layouts.forEach(comp=> {
       const item =  withInstall(comp, {suffix: 'sw'})
-      console.log(item)
       app.use(item)
     })
 }

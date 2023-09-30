@@ -2,7 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import LinButton  from '@lin/components/src/components/button'
+import LinButton  from '@lin/components/src/button'
 import layout from './layout'
 import App from './App.vue'
 // import router from './router'
