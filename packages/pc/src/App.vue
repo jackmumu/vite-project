@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <lin-button></lin-button>
+    <sw-header></sw-header>
   </div>
 </template>
 
