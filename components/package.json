@@ -2,6 +2,7 @@
   "name": "@lin/components",
   "version": "0.0.0",
   "private": true,
+  "main": "./src/components",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -12,7 +13,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@lin/utils": "workspace:^",
     "pinia": "^2.1.6",
+    "utils": "^0.3.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
