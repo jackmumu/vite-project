@@ -1,13 +1,13 @@
-<script setup lang="ts">
 
-</script>
 
 <template>
   <div>
     <sw-header></sw-header>
   </div>
 </template>
-
+<script setup lang="ts">
+ import '@lin/theme-chalk/src/common/app.scss'
+</script>
 <style scoped>
 header {
   line-height: 1.5;

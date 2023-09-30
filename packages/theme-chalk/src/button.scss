@@ -1,0 +1,17 @@
+@use 'mixins/mixin.scss' as *;
+@include b(button){
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.1s;
+
+  line-height: 1;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}

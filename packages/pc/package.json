@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@lin/components": "workspace:*",
+    "@lin/theme-chalk": "workspace:^",
     "@lin/utils": "workspace:^",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",

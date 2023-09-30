@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@lin/theme-chalk": "workspace:^",
     "@lin/utils": "workspace:^",
     "pinia": "^2.1.6",
     "utils": "^0.3.1",
