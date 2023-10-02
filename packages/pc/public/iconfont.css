@@ -1,0 +1,732 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3706782 */
+  src: url('iconfont.woff2?t=1696258885194') format('woff2'),
+       url('iconfont.woff?t=1696258885194') format('woff'),
+       url('iconfont.ttf?t=1696258885194') format('truetype'),
+       url('iconfont.svg?t=1696258885194#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sw-revision-image:before {
+  content: "\e688";
+}
+
+.sw-revision-affix:before {
+  content: "\e687";
+}
+
+.sw-add-knowledge:before {
+  content: "\e89d";
+}
+
+.sw-insert:before {
+  content: "\e6ba";
+}
+
+.sw-file-type-audio:before {
+  content: "\e686";
+}
+
+.sw-handwriting-stoke2:before {
+  content: "\ec9d";
+}
+
+.sw-handwriting-stoke:before {
+  content: "\e685";
+}
+
+.sw-digital-signature:before {
+  content: "\e684";
+}
+
+.sw-circle-small:before {
+  content: "\e683";
+}
+
+.sw-circle-medium:before {
+  content: "\ec9a";
+}
+
+.sw-circle-large:before {
+  content: "\ec9b";
+}
+
+.sw-fluorescent-pen2:before {
+  content: "\ec9e";
+}
+
+.sw-fluorescent-pen:before {
+  content: "\e682";
+}
+
+.sw-logo-ksofd:before {
+  content: "\e681";
+}
+
+.sw-handwriting-bursh2:before {
+  content: "\ec9c";
+}
+
+.sw-handwriting-bursh:before {
+  content: "\e67f";
+}
+
+.sw-tips-info:before {
+  content: "\e826";
+}
+
+.sw-tips-info-small:before {
+  content: "\ec97";
+}
+
+.sw-stardand-loading:before {
+  content: "\e6ca";
+}
+
+.sw-standard-check:before {
+  content: "\e9cb";
+}
+
+.sw-preseal-delete:before {
+  content: "\e678";
+}
+
+.sw-textbar-color:before {
+  content: "\e67d";
+}
+
+.sw-preseal-apply:before {
+  content: "\e67e";
+}
+
+.sw-choosemenu-color:before {
+  content: "\ec96";
+}
+
+.sw-input-visible:before {
+  content: "\e676";
+}
+
+.sw-input-unvisible:before {
+  content: "\e677";
+}
+
+.sw-revision-continueline:before {
+  content: "\e67a";
+}
+
+.sw-revision-anotherparagraph:before {
+  content: "\e67b";
+}
+
+.sw-revision-exchange:before {
+  content: "\e67c";
+}
+
+.sw-revision-notebox:before {
+  content: "\e675";
+}
+
+.sw-loading:before {
+  content: "\e674";
+}
+
+.sw-revision-moveword:before {
+  content: "\e673";
+}
+
+.sw-revision-moveback:before {
+  content: "\ec66";
+}
+
+.sw-revision-moveforward:before {
+  content: "\ec67";
+}
+
+.sw-revision-increasespace:before {
+  content: "\e672";
+}
+
+.sw-revision-reducespace:before {
+  content: "\e671";
+}
+
+.sw-revision-switchfont:before {
+  content: "\e8a8";
+}
+
+.sw-revision-cloud:before {
+  content: "\e670";
+}
+
+.sw-revision-seal:before {
+  content: "\e66e";
+}
+
+.sw-no-shaixuan:before {
+  content: "\e680";
+}
+
+.sw-shaixuan:before {
+  content: "\e66d";
+}
+
+.sw-cover-up:before {
+  content: "\e7a1";
+}
+
+.sw-table-news:before {
+  content: "\e66c";
+}
+
+.sw-file-type-video:before {
+  content: "\e66b";
+}
+
+.sw-exit-fullscreen-white:before {
+  content: "\e626";
+}
+
+.sw-fullscreen-white:before {
+  content: "\ec14";
+}
+
+.sw-zoom-normal-white:before {
+  content: "\e69f";
+}
+
+.sw-left-rotate-white:before {
+  content: "\e68f";
+}
+
+.sw-right-rotate-white:before {
+  content: "\e66a";
+}
+
+.sw-zoom-in-white:before {
+  content: "\ec13";
+}
+
+.sw-zoom-out-white:before {
+  content: "\e669";
+}
+
+.sw-zoom-normal:before {
+  content: "\e668";
+}
+
+.sw-pptcongtoubofang:before {
+  content: "\e647";
+}
+
+.sw-pptcongdangqianbofang:before {
+  content: "\e662";
+}
+
+.sw-pptzidongbofang:before {
+  content: "\e663";
+}
+
+.sw-export:before {
+  content: "\e6a5";
+}
+
+.sw-folder-color:before {
+  content: "\e664";
+}
+
+.sw-folder:before {
+  content: "\e667";
+}
+
+.sw-back-to-prev:before {
+  content: "\e61b";
+}
+
+.sw-cross:before {
+  content: "\e643";
+}
+
+.sw-auto-play:before {
+  content: "\e63e";
+}
+
+.sw-menu:before {
+  content: "\e629";
+}
+
+.sw-guide-annotation:before {
+  content: "\e633";
+}
+
+.sw-guide-bookmark:before {
+  content: "\e63d";
+}
+
+.sw-guide-semantics:before {
+  content: "\e644";
+}
+
+.sw-logo-ofd:before {
+  content: "\ec87";
+}
+
+.sw-file-type-ofd:before {
+  content: "\e630";
+}
+
+.sw-revision-redo:before {
+  content: "\e634";
+}
+
+.sw-revision-undo:before {
+  content: "\e63b";
+}
+
+.sw-guide-thumbs:before {
+  content: "\e628";
+}
+
+.sw-revision-underline:before {
+  content: "\38";
+}
+
+.sw-revision-squiggly:before {
+  content: "\e661";
+}
+
+.sw-guide-sign:before {
+  content: "\e660";
+}
+
+.sw-guide-outline:before {
+  content: "\35";
+}
+
+.sw-seal-sign:before {
+  content: "\ec8d";
+}
+
+.sw-begin-rotate:before {
+  content: "\e665";
+}
+
+.sw-saved:before {
+  content: "\e666";
+}
+
+.sw-sign:before {
+  content: "\e65f";
+}
+
+.sw-save:before {
+  content: "\e65e";
+}
+
+.sw-saved2:before {
+  content: "\e65d";
+}
+
+.sw-warring:before {
+  content: "\e65c";
+}
+
+.sw-clouds:before {
+  content: "\eb2c";
+}
+
+.sw-clouds-saved:before {
+  content: "\eb2d";
+}
+
+.sw-seal-prepare:before {
+  content: "\e65b";
+}
+
+.sw-refresh:before {
+  content: "\e65a";
+}
+
+.sw-seal-paging:before {
+  content: "\e658";
+}
+
+.sw-seal-normal:before {
+  content: "\e659";
+}
+
+.sw-revision-eraser-large:before {
+  content: "\e655";
+}
+
+.sw-revision-eraser-medium:before {
+  content: "\e656";
+}
+
+.sw-revision-eraser-small:before {
+  content: "\e657";
+}
+
+.sw-input-bold:before {
+  content: "\ec83";
+}
+
+.sw-input-italic:before {
+  content: "\ec85";
+}
+
+.sw-input-delete:before {
+  content: "\e8b6";
+}
+
+.sw-select:before {
+  content: "\e66f";
+}
+
+.sw-copy:before {
+  content: "\e654";
+}
+
+.sw-attribute:before {
+  content: "\e679";
+}
+
+.sw-exit-fullscreen:before {
+  content: "\e8fa";
+}
+
+.sw-file-type-msg:before {
+  content: "\ec8f";
+}
+
+.sw-file-type-psd:before {
+  content: "\ec8b";
+}
+
+.sw-file-type-other:before {
+  content: "\e64d";
+}
+
+.sw-file-type-word:before {
+  content: "\e64e";
+}
+
+.sw-file-type-svg:before {
+  content: "\ec8c";
+}
+
+.sw-file-type-excel:before {
+  content: "\e64f";
+}
+
+.sw-file-type-txt:before {
+  content: "\e650";
+}
+
+.sw-file-type-image:before {
+  content: "\e651";
+}
+
+.sw-file-type-zip:before {
+  content: "\e652";
+}
+
+.sw-file-type-ppt:before {
+  content: "\e653";
+}
+
+.sw-file-type-epub:before {
+  content: "\ec8a";
+}
+
+.sw-file-type-url:before {
+  content: "\ec90";
+}
+
+.sw-file-type-tif:before {
+  content: "\ec89";
+}
+
+.sw-tree-up:before {
+  content: "\e60f";
+}
+
+.sw-help:before {
+  content: "\e64c";
+}
+
+.sw-setting:before {
+  content: "\e70f";
+}
+
+.sw-guide-attachment:before {
+  content: "\e6bf";
+}
+
+.sw-guide-bookmark-delete:before {
+  content: "\e63c";
+}
+
+.sw-contrast-ratio:before {
+  content: "\e640";
+}
+
+.sw-zoom-in:before {
+  content: "\e648";
+}
+
+.sw-zoom-out:before {
+  content: "\e649";
+}
+
+.sw-guide-bookmark-add:before {
+  content: "\e64a";
+}
+
+.sw-info:before {
+  content: "\e64b";
+}
+
+.sw-seal-undo:before {
+  content: "\ec8e";
+}
+
+.sw-guide-attachment-open:before {
+  content: "\e63f";
+}
+
+.sw-file-type-pdf:before {
+  content: "\e641";
+}
+
+.sw-guide-attachment-download:before {
+  content: "\e642";
+}
+
+.sw-figure-arrow:before {
+  content: "\e645";
+}
+
+.sw-revision-figure:before {
+  content: "\e646";
+}
+
+.sw-qq:before {
+  content: "\e62c";
+}
+
+.sw-begin-double-page:before {
+  content: "\e62d";
+}
+
+.sw-begin-continuity-page:before {
+  content: "\e62e";
+}
+
+.sw-revision-strikeout:before {
+  content: "\e62f";
+}
+
+.sw-revision-handwriting:before {
+  content: "\e631";
+}
+
+.sw-begin-single-page:before {
+  content: "\e632";
+}
+
+.sw-revision-delete:before {
+  content: "\e635";
+}
+
+.sw-revision-show-revisions:before {
+  content: "\e636";
+}
+
+.sw-print:before {
+  content: "\e637";
+}
+
+.sw-paging-next:before {
+  content: "\e638";
+}
+
+.sw-figure-polygon:before {
+  content: "\e639";
+}
+
+.sw-figure-rectangle:before {
+  content: "\e63a";
+}
+
+.sw-begin-rotate-copy:before {
+  content: "\ec86";
+}
+
+.sw-revision-insert:before {
+  content: "\e62a";
+}
+
+.sw-security-document-identification:before {
+  content: "\e62b";
+}
+
+.sw-begin-eyehelp:before {
+  content: "\e614";
+}
+
+.sw-revision-highlight:before {
+  content: "\e615";
+}
+
+.sw-download:before {
+  content: "\e616";
+}
+
+.sw-cloud-document:before {
+  content: "\e617";
+}
+
+.sw-revision-add-revisions:before {
+  content: "\e618";
+}
+
+.sw-fullscreen:before {
+  content: "\e619";
+}
+
+.sw-figure-poly-line:before {
+  content: "\e61a";
+}
+
+.sw-zoom-fits-height:before {
+  content: "\e61c";
+}
+
+.sw-revision-replace:before {
+  content: "\e61d";
+}
+
+.sw-revision-eraser:before {
+  content: "\e61e";
+}
+
+.sw-revision-text-box:before {
+  content: "\e61f";
+}
+
+.sw-revision-squiggly2:before {
+  content: "\e620";
+}
+
+.sw-paging-first:before {
+  content: "\e621";
+}
+
+.sw-paging-last:before {
+  content: "\e622";
+}
+
+.sw-paging-prev:before {
+  content: "\e623";
+}
+
+.sw-guide-sign2:before {
+  content: "\e624";
+}
+
+.sw-zoom-fits-width:before {
+  content: "\e625";
+}
+
+.sw-search:before {
+  content: "\e627";
+}
+
+.sw-zoom-normal-copy:before {
+  content: "\ec88";
+}
+
+.sw-figure-ellipse:before {
+  content: "\e600";
+}
+
+.sw-close:before {
+  content: "\e601";
+}
+
+.sw-handwriting-soft-brush-bold:before {
+  content: "\e602";
+}
+
+.sw-tips-error-small:before {
+  content: "\e603";
+}
+
+.sw-tips-warning-small:before {
+  content: "\e604";
+}
+
+.sw-tips-success-small:before {
+  content: "\e605";
+}
+
+.sw-qr-code:before {
+  content: "\e606";
+}
+
+.sw-handwriting-stiff-brush-normal:before {
+  content: "\e607";
+}
+
+.sw-handwriting-soft-brush-fine:before {
+  content: "\e608";
+}
+
+.sw-guide-bookmark-save:before {
+  content: "\e609";
+}
+
+.sw-search-input:before {
+  content: "\e60a";
+}
+
+.sw-tips-warning:before {
+  content: "\e60b";
+}
+
+.sw-handwriting-soft-brush-normal:before {
+  content: "\e60c";
+}
+
+.sw-tips-success:before {
+  content: "\e60d";
+}
+
+.sw-figure-line:before {
+  content: "\e60e";
+}
+
+.sw-eyehelp:before {
+  content: "\e610";
+}
+
+.sw-tips-error:before {
+  content: "\e611";
+}
+
+.sw-handwriting-stiff-brush-fine:before {
+  content: "\e612";
+}
+
+.sw-eyehelp-disabled:before {
+  content: "\e613";
+}
+
