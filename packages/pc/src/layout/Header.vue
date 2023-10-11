@@ -1,5 +1,5 @@
 <template>
-  <div class="sw-header">
+  <div class="lin-header">
     <lin-button v-for="item of HeaderMenu" :key="item.id" :iconName="item.iconName" ></lin-button>
   </div>
 </template>
@@ -10,3 +10,8 @@ defineOptions({
   name: 'Header',
 })
 </script>
+<style scoped>
+.lin-header{
+  height: 60px;
+}
+</style>
